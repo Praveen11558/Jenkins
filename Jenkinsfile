@@ -2,14 +2,6 @@ pipeline {
     agent any
 
     stages {
-        stage ('Path') {
-
-            steps {
-                
-                    sh 'ls -lat'
-                
-            }
-        }
 
 stage ('Compile Stage') {
 
