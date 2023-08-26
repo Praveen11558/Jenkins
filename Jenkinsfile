@@ -3,7 +3,7 @@ pipeline {
 
     stages {
 
-stage ('Compile Stage') {
+stage ('maven Stage') {
 
             steps {
             
