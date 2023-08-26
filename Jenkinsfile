@@ -7,7 +7,7 @@ stage ('Compile Stage') {
 
             steps {
             
-                    sh 'mvn clean install'
+                    mvn clean install
                
             }
         }
